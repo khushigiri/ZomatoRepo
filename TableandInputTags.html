@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Table and Input Tags</title>
+</head>
+<body>
+	
+	<!--Input tags-->
+	<h3>Login Page</h3>
+	<label>Username:</label> 
+	<input placeholder="Please enter your username" required/>
+	
+	<br/>
+	<br/>
+	
+	<label>Password:&nbsp; </label> 
+	<input type="password" placeholder="Please enter your password" required/></p>
+
+
+	<label>Gender:&nbsp;</label>
+	<input type="radio" name="gender"/>
+	<label>male</label>
+	<input type="radio" name="gender"/>
+	<label>female</label>
+	<input type="radio" name="gender"/>
+	<label>other</label>
+
+	
+	<hr/>
+	
+	<table border="10">
+		<!--the number inside border is used for thickness of table-->
+		<!--Table row tag-->
+		<!--colSpan and rowSpan are used to merge columns and rows respectively-->
+		
+		<tr>
+			<!--th used for table heading-->
+			<th>Column1</th>
+			<th>Column2</th>
+			<th>Column3</th>
+		</tr>
+		
+		<tr>
+			<!--Table data or column-->
+			<td colSpan="2">1</td>
+			<td>2</td>
+			<td>3</td>
+		</tr>
+		
+		<tr>
+			<td rowSpan="2">4</td>
+			<td>5</td>
+			<td>6</td>
+		</tr>
+		
+		<tr>
+			<td>7</td>
+			<td>8</td>
+			<td>9</td>
+		</tr>
+	
+	</table>
+
+</body>
+</html>

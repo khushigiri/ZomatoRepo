@@ -1,0 +1,98 @@
+body {
+	background: dimgrey;
+	color: white;
+}
+
+.p1 {
+	background: black;
+	color: white;
+	cursor: pointer;
+	padding: 8px 8px 8px 8px;
+	border-radius: 10px;
+	margin-left: 78px;
+	margin-right: 78px;
+	cursor: pointer;
+}
+
+.gon {
+	position: relative;
+	font-size: 90px;
+	top: 130px;
+	left: 450px;
+}
+
+.i1 {
+	width: 12px;
+}
+
+.p3 {
+	background: white;
+	color: grey;
+	padding: 10px 10px 10px 12px ;
+	border-radius: 10px;
+	cursor: pointer;
+	margin-left: 410px;
+	margin-right: 400px;
+	margin-top: 150px;
+}
+
+.gn {
+	position: relative;
+	left: 1100px;
+	bottom: 65px;
+	cursor: pointer;
+}
+
+.in {
+	position: relative;
+	left: 1110px;
+	bottom: 65px;
+	cursor: pointer;
+}
+
+.yl {
+	position: relative;
+	width: 57px;
+	height: 57px;
+	border-radius: 100%;
+	left: 550px;
+	cursor: pointer;
+}
+
+.cl {
+	position: relative;
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	left: 650px;
+	bottom: 78px;
+	cursor: pointer;
+}
+
+.asl {
+	position: relative;
+	width: 57px;
+	height: 57px;
+	border-radius: 100%;
+	left: 750px;
+	bottom: 157px;
+	cursor: pointer;
+}
+
+.yn {
+	position: relative;
+	left: 551px;
+	bottom: 173px;
+}
+
+.cn {
+	position: relative;
+	left: 592px;
+	bottom: 173px;
+}
+
+.asn {
+	position: relative;
+	left: 619px;
+	bottom: 173px;
+}

@@ -1,0 +1,41 @@
+.box {
+	background: black;
+	height: 100vh;
+	width: 100vw;
+}
+
+/* vh,vw-entire UI/ px-square / %-width*/
+
+.ball {
+	height: 120px;
+	width:120px;
+	border-radius: 100%;
+	background: yellow;
+}
+
+.ball:hover {
+	cursor: pointer;
+	animation: movetheball 5s ease-in-out forwards;
+}
+
+@keyframes movetheball {
+	25% {
+		transform: translate(400%);
+	}
+	50% {
+		transform: translate(400%,400%);
+		background: red;
+		border-radius: 12%;
+
+	}
+	75% {
+		transform: translate(0,400%);
+		background: white;
+		border-radius: 25%;
+	}
+	100% {
+		transform: translate(0,0);
+		background: aqua;
+		border-radius: 10%;
+	}
+}

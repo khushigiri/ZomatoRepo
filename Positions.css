@@ -1,0 +1,64 @@
+/* Positions in CSS*/
+/* 1. Static(Default) 
+
+h1 {
+	position:static;
+	background-color: skyblue;
+	color: green;
+	border: 10px solid red;
+}
+*/
+
+/* 2. Relative: at once either top or down will work and either right or left will work 
+
+h1 {
+	position:relative;
+	background-color: skyblue;
+	color: green;
+	border: 10px solid red;
+	bottom:25px;
+	left:20px;
+}
+*/
+
+
+/* 3. Fixed: the content will be fixed even though we scroll up or down 
+
+h1 {
+	position:fixed;
+	background-color: skyblue;
+	color: green;
+	border: 10px solid red;
+}
+*/
+
+/* 4. Absolute: It will always work with parent(relative). 
+
+#parent {
+	position:relative;
+	height: 250px;
+	width: 250px;	
+	border: 5px solid red;
+}
+
+.divc {
+	position:absolute;
+	background-color: skyblue;
+	color: green;
+	border: 5px solid black;
+	bottom: 50px;
+	left:5px;
+	
+}
+*/
+
+/* 4. Sticky: The position will be fixed but it will act according to the offsets. (We can use it for navigation bars). */
+
+.divc {
+	position:sticky;
+	background-color: skyblue;
+	color: green;
+	border: 5px solid black;
+	bottom: 50px;
+	left:5px;
+}

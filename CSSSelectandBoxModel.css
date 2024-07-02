@@ -1,0 +1,92 @@
+/* CSS Selectors*/
+
+/* To make whole website background same color.
+body {
+	background-color: yellow ;
+	color: red;
+}
+*/
+
+/* 1. Universal Selector
+
+To make whole website background same color.
+
+* {
+	background-color: yellow ;
+	color: red;
+}
+
+*/
+
+/* 2. Selectors List
+
+To make same styles in different tags.
+
+h2,p {
+	background-color: yellow ;
+	color: red;
+}
+
+*/
+
+/* 3. Element Selector
+
+h2 {
+	background-color: yellow ;
+	color: red;
+	border: 2px solid green;
+}
+
+*/
+
+/* 4. ID Selector
+
+#h22 {
+	background-color: yellow ;
+	color: red;
+	border: 5px solid green;
+}
+
+*/
+
+/* 5. Class Selector*/
+
+.cs {
+	background-color: yellow ;
+	color: red;
+	border: 5px solid green;
+	/* To get circle these exact values should be there */
+	width: 100px;
+	height: 100px;
+	border-radius: 80%;
+}
+
+/* 6. Descendent Selector*/
+
+a {
+	background-color: yellow ;
+	color: red;
+	border: 2px solid green;
+}
+
+/* 7. Direct Child Selector*/
+
+i > u {
+	background-color: yellow ;
+	color: red;
+	border: 2px solid green;
+}
+
+#h1 {
+	background-color: blue; 
+	color: brown;
+}
+
+h4 {
+	background-color: skyblue; 
+	color: brown;
+	/*Internal Spacing*/
+	padding: 14px 20px 100px 60px;
+	margin: 10px 15px 87px 65px;
+	/*top right bottom left (Clock-Wise Directions)*/
+}
