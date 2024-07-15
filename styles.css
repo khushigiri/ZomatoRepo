@@ -10,7 +10,7 @@
     background-size: cover;
     background-position: center;
     color: white;
-    min-height: 67vh;
+    min-height: 66.5vh;
 }
 
 .nav_bar {
@@ -52,16 +52,29 @@
 }
 
 .hero_section_logo {
-    width: 200px;
-    height: 40px;
+    width: 230px;
+    height: 65px;
 }
 
 .hero_section_title {
     text-align: center;
     font-size: 30px;
-    font-weight: 400;
+    font-weight: 415;
 }
 
+.location_icon {
+    color: palevioletred;
+}
+
+.search_icon {
+    color: grey;
+    border-left: 1.5px solid grey;
+    padding-left: 5px;
+}
+
+.sort_icon {
+    color: black;
+}
 .hero_section_input_container {
     background-color: white;
     padding: 10px;
@@ -79,15 +92,15 @@
   overflow: hidden;
   border: none;
   outline: none;
+  font-size: 16px;
 }
 
 .input_container_location {
-    width: 30%;
-    border-right: 2px solid grey;
+    width: 35%;
 }
 
 .input_container_search {
-    width: 70%;
+    width: 65%;
 }
 
 @media only screen and (max-width:600px) {
@@ -139,6 +152,9 @@
     border: 1px solid white;
     transition: all 1s ease;
     margin-right: 12px;
+    border: 1px solid silver;
+    width: 530px;
+    height: 240px;
 }
 
 .we__offer_card:hover {
@@ -166,58 +182,71 @@
     font-size: 13px;
 }
 
+@media only screen and (max-width:800px) {
+    .we__offer_card {
+        height:250px;
+        width: 280px;
+    }
+}
+
+.collections{
+    margin-left: 132px;    
+}
+
 .collections h1 {
     font-weight: 600;
 }
 
-.collections .sub__heading_container {
+.sub__heading_container {
     font-size: 15px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     flex-wrap: wrap;
-    gap: 1rem;
 }
 
 .sub__heading_container span:nth-child(2) {
-    color: crimson;
+    color: palevioletred;
     font-size: 13px;
     cursor: pointer;
+    margin-left: 110px;
 
+}
+
+.sub__heading_container .arrow_icon {
+    color: palevioletred;
 }
 
 .collections__card_container {
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-wrap: wrap;
     gap: 0.5rem;
-    margin-top: 1.25rem;
+    margin-top: 1.75rem;
 }
 
 .collections__card_container .card {
-    height: 300px;
-    min-width: 250px;
+    height: 330px;
+    min-width: 265px;
     background-size: cover;
     background-position: center;
-    border-radius: 1opx;
+    border-radius: 10px;
     position: relative;
 }
 
 .card1 {
-    background-image: url(./Images/collection1.jpg);
+    background-image: url(./Images/cafe.jpeg);
 }
 
 .card2 {
-    background-image: url(./Images/collection2.jpg);
+    background-image: url(./Images/Luxury.jpg);
 }
 
 .card3 {
-    background-image: url(./Images/collection3.jpg);
+    background-image: url(./Images/North.jpg);
 }
 
 .card4 {
-    background-image: url(./Images/collection4.jpg);
+    background-image: url(./Images/ultimate.jpg);
 }
 
 .overlay {
@@ -228,7 +257,7 @@
     left: 0;
     border-radius: 10px;
     background: linear-gradient(
-        top,
+        bottom,
         rgba(225,0,0,1) 0%,
         rgba(225,0,2,1) 50%,
         rgba(225,0,0,1) 85%,
@@ -244,6 +273,7 @@
     padding: 12px 16px;
     font-size: 0.9rem;
     z-index: 6;
+    cursor: pointer;
 }
 
 .content h4 {
@@ -251,13 +281,91 @@
     letter-spacing: 0.5px;
 }
 
+@media only screen and (max-width:800px) {
+    .collections{
+        margin-left: 34px;    
+    }
+    .sub__heading_container span:nth-child(2) {
+        margin-left: 0;
+    
+    }
+    .collections__card_container .card {
+        height: 320px;
+        min-width: 143px;
+    }
+}
+
+.loc_container {
+    margin-left: 132px;
+}
+
+.localities_container a{
+    text-decoration: none;
+    color: black;
+}
+
+.localities_container  {
+    display: flex;
+    gap: 15px;
+}
+
+.places_container {
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+
+.localities_and_places {
+    border: 1px solid silver;
+    border-radius: 10px;
+    margin-top: 15px;
+    padding: 10px;
+    height: 85px;
+    width: 350px;
+    font-weight: 330;
+}
+
+.angle_icon {
+    color: black;
+    padding-left: 200px;
+}
+
+.see_more {
+    cursor: pointer;
+    text-align: center;
+    padding: 19px;
+    font-size: 22px;
+}
+
+.place {
+    font-size: 21px;
+}
+
+.places_n {
+    color: silver;
+}
+
+@media only screen and (max-width:800px) {
+    .loc_container {
+        margin-left: 34px;
+    }
+    .localities_and_places {
+        height: 100px;
+        width: 198px;
+    }
+    .angle_icon {
+        padding-left: 78px;
+    }
+}
+
 .get__the_app {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: white;
     width: 100%;
     padding: 3rem 6rem;
+    margin-top: 160px;
+    background-color: snow;
 }
 
 
@@ -275,9 +383,8 @@
 }
 
 .get__the_app .semiContainer .left img {
-    width: 100%;
-    object-fit: cover;
-    object-position: center;
+    width: 200px;
+    height: 240px;
 }
 
 .get__the_app .semiContainer .right {
@@ -289,8 +396,8 @@
 }
 
 .right h1 {
-    font-weight: 400;
-    font-size: 2rem;
+    font-weight: 500;
+    font-size: 2.25rem;
 }
 
 .right p {
@@ -313,7 +420,8 @@
 .right .radio__button_container div input {
     height: 15px;
     width: 15px;
-    color: red;
+    accent-color: palevioletred;
+    cursor: pointer;
 }
 
 .input_container {
@@ -339,7 +447,7 @@
 
 .input_container button {
     border: none;
-    background-color: red;
+    background-color: palevioletred;
     color: white;
     border-radius: 5px;
     cursor: pointer;
@@ -394,6 +502,62 @@
     
 }
 
+.explore_container {
+    margin-left: 132px;
+}
+
+.options {
+    border: 1px solid silver;
+    margin-top: 15px;
+    border-radius: 10px;
+    padding: 18px;
+    font-size: 18px;
+    font-weight: 340;
+    cursor: pointer;
+    margin-right: 130px;
+}
+
+.angle_icon_o1 {
+    padding-left: 800px;
+    color: black;
+}
+
+.angle_icon_o2 {
+    padding-left: 719px;
+    color: black;
+}
+
+.angle_icon_o3 {
+    padding-left: 815px;
+    color: black;
+}
+
+.angle_icon_o4 {
+    padding-left: 815px;
+    color: black;
+}
+
+@media only screen and (max-width:800px) {
+    .explore_container {
+        margin-left: 34px;
+    }
+    .options {
+        width: 600px;
+    }
+    .angle_icon_o1 {
+        padding-left: 318px;
+    }
+    .angle_icon_o2 {
+        padding-left: 238px;
+    }
+    .angle_icon_o3 {
+        padding-left: 335px;
+    }
+    .angle_icon_o4 {
+        padding-left: 364px;
+    }
+}
+
 .footer_section1 {
     display: flex;
     flex-wrap: wrap;
@@ -409,14 +573,15 @@
 
 .section1_buttonContainer {
     display: flex;
-    gap: 1rem;
+    gap: 1.1rem;
 }
 
 .section1_buttonContainer button {
-    padding: 5px;
-    width: 90px;
+    padding: 10px;
+    width: 120px;
     border: 1px solid gray;
     border-radius: 5px;
+    font-size: 16px;
     background-color: transparent;
     display: flex;
     align-items: center;
@@ -481,9 +646,10 @@
 
 .disclaimer {
     width: 95%;
-    color: gray;
+    font-weight: 300;
+    font-size: 13px;
     margin: auto;
-    border-top: 1px solid gray;
+    border-top: 1px solid silver;
     padding-top: 1.5rem;
 }
 

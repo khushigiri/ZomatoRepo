@@ -36,7 +36,12 @@
     <section class="hero_section">
       <header>
         <nav class="nav_bar">
+          <div>
+            <a href="#">
+              <i class="fa-solid fa-mobile-screen-button"></i>
+            </a>
           <a href="#">Get the app</a>
+        </div>
           <div class="navbar_menu_container">
             <a href="#" class="link">Investor Relations</a>
             <a href="#" class="link">Add Restaurants</a>
@@ -50,10 +55,17 @@
       </header>
       <div class="hero_section_container">
         <img src="./Images/heroSectionLogo.png" alt="Zomato_logo" class="hero_section_logo"/>
-        <h1 class="hero_section_title">Discover the best food and drinks in your place</h1>
+        <h1 class="hero_section_title">Discover the best food and drinks in Patna</h1>
         <div class="hero_section_input_container">
-          <input class="input_container_location" type="text" placeholder="Your place"/>
-          <input class="input_container_search" type="text" placeholder="Search for restaurants, cuisine or dish"/>
+          
+          <a class="location_icon"><i class="fa-solid fa-location-dot"></i></a>
+          <input class="input_container_location" type="text" placeholder="Postal Park, Mithapur, Patna"/>
+          <a class="sort_icon" style="cursor: pointer;"><i class="fa-solid fa-sort-down"></i></a>
+        
+          
+          <a class="search_icon"><i class="fa-solid fa-magnifying-glass"></i></a>
+          <input class="input_container_search" type="text" placeholder="Search for restaurants, cuisine or a dish"/>
+        
         </div>
       </div>
     </section>
@@ -77,17 +89,19 @@
     </section>
 
     <section class="container collections">
-      <h1>Collection</h1>
+      <div>
+      <p style="font-size: 32px;"><b>Collections</b></p>
       <div class="sub__heading_container">
-        <span>Explore curated lists of top restaurants, cafes, pubs and bars in your place, based on trends</span>
-        <span>All collection in your place</span>
+        <span style="font-size: 18px;">Explore curated lists of top restaurants, cafes, pubs and bars in Patna, based on trends</span>
+        <span style="font-size: 16px;">All collection in Patna <a class="arrow_icon"><i class="fa-solid fa-circle-arrow-right"></i></a></span>
+        
       </div>
 
       <div class="collections__card_container">
         <div class="card card1">
           <div class="content">
-            <h4>Live Cricket screening</h4>
-            <span>56 Places</span>
+            <h4>13 Great Cafes</h4>
+            <span>12 Places <a><i class="fa-solid fa-angle-right"></i></a></span>
           </div>
           <div class="overlay"></div>
         </div>
@@ -96,27 +110,91 @@
         <div class="card card2">
           <div class="overlay"></div>
           <div class="content">
-            <h4>Malnad Special</h4>
-            <span>12 Places</span>
+            <h4>5 Best Luxury Dining Places</h4>
+            <span>7 Places <a><i class="fa-solid fa-angle-right"></i></a></span>
           </div>
         </div>
 
         <div class="card card3">
           <div class="overlay"></div>
           <div class="content">
-            <h4>Newly Opened Restaurants</h4>
-            <span>36 Places</span>
+            <h4>15 North Indian Delicacies</h4>
+            <span>13 Places <a><i class="fa-solid fa-angle-right"></i></a></span>
           </div>
         </div>
 
         <div class="card card4">
           <div class="content">
-            <h4>Trending pubs near me</menu></h4>
-            <span>16 Places</span>
+            <h4>5 Ultimate Vegeterian Restaurants</menu></h4>
+            <span>5 Places <a><i class="fa-solid fa-angle-right"></i></a></span>
           </div>
           <div class="overlay"></div>
         </div>
       </div>
+    </div>
+    </section>
+
+    <section class="loc_container">
+      <div style="font-size: 32px;">Popular localities in and around <b>Patna</b></div>
+      <div class="localities_container">
+      <div>
+      <div class="localities_and_places">
+        <a href="#"  class="place">Fraser Road Area</a>
+        <br/>
+        <a href="#" class="places_n">128 Places</a>
+        <a href="#" class="angle_icon"><i class="fa-solid fa-angle-right"></i></a>
+      </div>
+      <div class="localities_and_places">
+        <a href="#" class="place">Kankarbagh</a>
+        <br/>
+        <a href="#" class="places_n">505 Places</a>
+        <a href="#" class="angle_icon"><i class="fa-solid fa-angle-right"></i></a>
+      </div>
+      <div class="localities_and_places">
+        <a href="#" class="place">Khajpura</a>
+        <br/>
+        <a href="#" class="places_n">294 Places</a>
+        <a href="#" class="angle_icon"><i class="fa-solid fa-angle-right"></i></a>
+      </div>
+    </div>
+    <div>
+      <div class="localities_and_places">
+        <a href="#"  class="place">Golambar</a>
+        <br/>
+        <a href="#" class="places_n">198 Places</a>
+        <a href="#" class="angle_icon"><i class="fa-solid fa-angle-right"></i></a>
+      </div>
+      <div class="localities_and_places">
+        <a href="#"  class="place">Patliputra Colony</a>
+        <br/>
+        <a href="#" class="places_n">219 Places</a>
+        <a href="#" class="angle_icon"><i class="fa-solid fa-angle-right"></i></a>
+      </div>
+      <div class="localities_and_places">
+        <a href="#" class="place">Kidwaipuri</a>
+        <br/>
+        <a href="#" class="places_n">108 Places</a>
+        <a href="#" class="angle_icon"><i class="fa-solid fa-angle-right"></i></a>
+      </div>
+    </div>
+    <div>
+      <div class="localities_and_places">
+        <a href="#"  class="place">Sri Krishnapuri</a>
+        <br/>
+        <a href="#" class="places_n">192 Places</a>
+        <a href="#" class="angle_icon"><i class="fa-solid fa-angle-right"></i></a>
+      </div>
+      <div class="localities_and_places">
+        <a href="#" class="place">Lodipur</a>
+        <br/>
+        <a href="#" class="places_n">56 Places</a>
+        <a href="#" class="angle_icon"><i class="fa-solid fa-angle-right"></i></a>
+      </div>
+      <div class="localities_and_places">
+        <p class="see_more">see more <a href="#"><i class="fa-solid fa-angle-down"></i></a></p>
+      </div>
+    </div>
+  </div>
     </section>
 
     <section class="container get__the_app">
@@ -126,43 +204,54 @@
       </div>
       <div class="right">
         <h1>Get the Zomato App</h1>
-        <p>We will send you a link, open it on your phone to download the app</p>
+        <p style="font-size: 13px;">We will send you a link, open it on your phone to download the app</p>
         <div class="radio__button_container">
           <div>
             <input type="radio" id="email" name="download_app"/>
-            <label for="email" style="font-size: 14px;">Email</label>
+            <label for="email" style="font-size: 16px;">Email</label>
           </div>
           <div>
             <input type="radio" id="phone" name="download_app"/>
-            <label for="phone" style="font-size: 14px;">Phone</label>
+            <label for="phone" style="font-size: 16px;">Phone</label>
           </div>
         </div>
         <div class="input_container">
           <input type="text" placeholder="Email"/>
-          <button>Share App Link</button>
+          <button style="font-size: 16px;">Share App Link</button>
         </div>
         <div class="download__app_container">
-          <h5>Download App From </h5>
-          <div>
-            <img src="./Images/appleStore.png" alt="Apple Store"/>
+          <h5>Download app from </h5>
+          <div style="margin-top: 10px;">
             <img src="./Images/playStore.png" alt="Play Store"/>
+            <img src="./Images/appleStore.png" alt="Apple Store"/>
           </div>
         </div>
       </div>
     </div>
     </section>
+
+    <section class="explore_container">
+      <p style="font-size: 32px;">Explore options near me</p>
+        <div class="options">Popular cuisines near me<a href="#" class="angle_icon_o1"><i class="fa-solid fa-angle-down"></i></a></div>
+        <div class="options">Popular restaurant types near me <a href="#" class="angle_icon_o2"><i class="fa-solid fa-angle-down"></i></a></div>
+        <div class="options">Top Restaurant Chains <a href="#" class="angle_icon_o3" ><i class="fa-solid fa-angle-down"></i></a></div>
+        <div class="options">Cities We Deliver To <a href="#" class="angle_icon_o4" ><i class="fa-solid fa-angle-down"></i></a></div>
+    </section>
     
-    <footer class="container footer">
+    <footer class="container footer" style="background-color: whitesmoke; ">
+      <br/>
       <div class="footer_section1">
         <img src="./Images/logo.png" alt="Zomato logo"/>
         <div class="section1_buttonContainer">
           <button>
             <img src="https://flagcdn.com/w40/in.png" alt="Indian flag" style="width: 15px;"/>
             India
+            <i class="fa-solid fa-angle-down"></i>
           </button>
           <button>
             <i class="fa fa-globe"></i>
             English
+            <i class="fa-solid fa-angle-down"></i>
           </button>
         </div>
       </div>
@@ -170,11 +259,12 @@
       <div class="navigation_container">
         <div class="link_container">
           <h5>ABOUT ZOMATO</h5>
-          <a class="footer_link" href="#">Who we are</a>
-          <a class="footer_link" href="#">Blogs</a>
-          <a class="footer_link" href="#">Work with us</a>
+          <a class="footer_link" href="#">Who We Are</a>
+          <a class="footer_link" href="#">Blog</a>
+          <a class="footer_link" href="#">Work With Us</a>
           <a class="footer_link" href="#">Investor Relations</a>
           <a class="footer_link" href="#">Report Fraud</a>
+          <a class="footer_link" href="#">Press Kit</a>
           <a class="footer_link" href="#">Contact Us</a>
         </div>
 
@@ -185,15 +275,13 @@
         <a class="footer_link" href="#">Feeding India</a>
         <a class="footer_link" href="#">Hyperpure</a>
         <a class="footer_link" href="#">Zomaland</a>
+        <a class="footer_link" href="#">Weather Union</a>
       </div>
 
       <div class="link_container">
         <h5>FOR RESTAURANTS</h5>
         <a class="footer_link" href="#">Partner With Us</a>
         <a class="footer_link" href="#">Apps For you</a>
-        <br/>
-        <h5>FOR ENTERPRISES</h5>
-        <a class="footer_link" href="#">Zomato for Work</a>
       </div>
 
       <div class="link_container">
@@ -217,10 +305,10 @@
             <i class="fa-brands fa-twitter"></i>
           </button>
           <button>
-            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-youtube"></i>
           </button>
           <button>
-            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-facebook"></i>
           </button>
         </div>
         <br/>
