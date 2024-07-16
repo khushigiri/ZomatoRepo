@@ -114,7 +114,7 @@
         display: none;
     }
     .hero_section {
-        min-height: 55vh;
+        min-height: 50vh;
     }
 
     .hero_section_container {
@@ -135,7 +135,7 @@
         width: 95%;
     }
     .hero_section_input_container {
-        width: 75%;
+        width: 80%;
     }
 }
 
@@ -188,7 +188,7 @@
     font-size: 13px;
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:500px) {
     .we__offer_card {
         height:260px;
         width: 204px;
