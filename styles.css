@@ -194,7 +194,7 @@
     }
     .we__offer_card {
         height:260px;
-        width: 171px;
+        width: 152px;
     }
 }
 
@@ -312,7 +312,7 @@
     }
     .collections__card_container .card {
         height: 175px;
-        min-width: 176px;
+        min-width: 158px;
     }
 }
 
@@ -354,7 +354,7 @@
 .see_more {
     cursor: pointer;
     text-align: center;
-    padding: 19px;
+    padding: 10px;
     font-size: 22px;
 }
 
@@ -374,12 +374,12 @@
         margin-right: 23px;
     }
     .localities_and_places {
-        height: 150px;
-        width: 110px;
+        height: 180px;
+        width: 95px;
 
     }
     .angle_icon {
-        padding-left: 85px;
+        padding-left: 70px;
     }
 }
 
@@ -587,7 +587,7 @@
     color: black;
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:500px) {
     .explore_container {
         margin-left: 34px;
     }
@@ -595,19 +595,19 @@
         font-size: 25px;
     }
     .options {
-        width: 360px;
+        width: 320px;
     }
     .angle_icon_o1 {
-        padding-left: 78px;
+        padding-left: 38px;
     }
     .angle_icon_o2 {
-        padding-left: 1px;
+        padding-left: 230px;
     }
     .angle_icon_o3 {
-        padding-left: 98px;
+        padding-left: 58px;
     }
     .angle_icon_o4 {
-        padding-left: 128px;
+        padding-left: 88px;
     }
 }
 
